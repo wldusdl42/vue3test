@@ -1,10 +1,12 @@
 <template>
+<div style="font-family: 'hanna'">
+  <router-view/>
+</div>
   <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <router-link to="/testtest">Testtest</router-link>
   </nav> -->
-  <router-view/>
 </template>
 
 <style>
@@ -16,6 +18,10 @@
   color: #2c3e50;
 }
 
+@font-face {
+  font-family: 'hanna';
+  src: url('./assets/font/BMHANNAPro.ttf');
+}
 nav {
   padding: 30px;
 }
