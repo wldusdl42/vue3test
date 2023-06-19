@@ -12,4 +12,7 @@ const onClick = () => {
   <button @click='onClick'>
     add test
   </button>
+  <button @click='onClick'>
+    add test
+  </button>
 </template>
