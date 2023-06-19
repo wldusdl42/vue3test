@@ -10,6 +10,6 @@ const onClick = () => {
 <template>
   <h1> List: {{ list.join(', ')  }} </h1>
   <button @click='onClick'>
-    add
+    add test
   </button>
 </template>
